@@ -30,6 +30,13 @@
       gtag('config', 'AW-18455516447');
       gtag('config', 'AW-18455563971');
       gtag('config', 'AW-18455605514');
+      if (window.location.pathname === '/obrigado') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18455516447/9jEjCKOv8oIdEJ-qo-BE',
+          'transaction_id': ''
+          // 'new_customer': true /* calculate dynamically, populate with true/false */,
+        });
+      }
       window.addEventListener('load', function () {
         var s = document.createElement('script');
         s.async = true;
