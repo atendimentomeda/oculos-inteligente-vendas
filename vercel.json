@@ -2,6 +2,8 @@
   "rewrites": [
     { "source": "/termos", "destination": "/termos-de-uso.html" },
     { "source": "/privacidade", "destination": "/privacidade.html" },
-    { "source": "/contato", "destination": "/contato.html" }
+    { "source": "/contato", "destination": "/contato.html" },
+    { "source": "/obrigado", "destination": "/index.html" },
+    { "source": "/obrigado/", "destination": "/index.html" }
   ]
 }
